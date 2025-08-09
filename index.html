@@ -384,7 +384,6 @@
                     <img src="images/bucket.png" alt="Public S3 bucket visual" class="scenario-image">
                     <div class="interactive-element">
                         <h4>Faced with this critical finding, what is your next immediate technical step?</h4>
-                        <div class="slack-chat" id="slackChat"></div>
                         <div class="decision-buttons">
                             <button class="btn critical" data-decision="d1-s3-close-access" data-next-section="day2_iam_review"><i class="fa-solid fa-lock"></i><div class="btn-text">Option A: Immediately disable public access to the `Analysis-Data-Production` store and apply the strictest permissions.<small>Instantly close the biggest security hole and stop the leak.</small></div></button>
                             <button class="btn" data-decision="d1-s3-scan-all" data-next-section="day2_iam_review"><i class="fa-solid fa-search-plus"></i><div class="btn-text">Option B: Urgently run a security scan on all other data stores in the cloud environment.<small>Conduct a comprehensive audit to identify if similar misconfigurations exist elsewhere.</small></div></button>
@@ -447,8 +446,7 @@
                     <p>In the midst of the media crisis, the executive board gathers for an emergency meeting. Everyone has a different priority, and tensions are high. The moment of decision has arrived:</p>
                     <img src="images/board.png" alt="Board meeting visual" class="scenario-image">
                     <div class="interactive-element">
-                        <h4>As the Senior Cloud Security Specialist, under all this pressure, how will you make the final major technical and strategic decision that will determine the company's fate?</h4>
-                        <div class="slack-chat" id="slackChat"></div>
+                        <h4>In the midst of a media crisis, the board of directors gathers for an emergency meeting. Everyone has different priorities and tensions are high. The moment of decision has arrived and everyone is looking at you. At the end of the meeting, they offer you two options:</h4>
                         <div class="decision-buttons">
                             <button class="btn critical" data-decision="d3-m-take-offline" data-next-section="day3_regulatory_threat"><i class="fa-solid fa-power-off"></i><div class="btn-text">Option A: Immediately shut down all critical systems and conduct a comprehensive security audit and cleanup.<small>Choose the safest route, but postpone the launch indefinitely and cause major financial losses.</small></div></button>
                             <button class="btn" data-decision="d3-m-patch-continue" data-next-section="day3_regulatory_threat"><i class="fa-solid fa-wrench"></i><div class="btn-text">Option B: Apply quick security patches and proceed with the product launch.<small>Accept the risk and save the launch, but remain vulnerable to hidden flaws or remaining attackers.</small></div></button>
@@ -986,3 +984,4 @@
 </body>
 
 </html>
+
